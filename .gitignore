@@ -1,1 +1,35 @@
+target
+*.class
+*.log
+
+# sbt
+.bsp/
+metals.sbt
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea
+out
+
+# VSCode
+.vscode/
+.bloop/
+.metals/
+
 .idea/
+build/
+*.log
+.DS_Store
+.vscode/
+*.pyc
+
+# Vim swap files
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+
+docker_shared
+
+# worksheet files
+*.sc
